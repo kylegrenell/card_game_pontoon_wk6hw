@@ -16,8 +16,13 @@ public class CardTest {
   @Test
   public void cardHasSuit(){
     assertEquals(Suit.CLUBS, this.card.getSuit());
+    // Suit.Clubs is the instance, referencing this.card from method getSuit
   }
 
+  @Test
+  public void cardHasRank(){
+    assertEquals(Rank.NINE, this.rank.getRank());
+  }
 
 
 
