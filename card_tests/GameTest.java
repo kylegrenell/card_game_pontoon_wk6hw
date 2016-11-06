@@ -6,8 +6,7 @@ public class GameTest {
      Game game;
      Player player;
      Player gameDealer;
-     Hand player.hand;
-     Hand gameDealer.hand;
+     Hand hand;
      Deck deck;
      Card card1;
      Card card2;
@@ -19,7 +18,6 @@ public class GameTest {
           player = new Player();
           gameDealer = new Player();
           player.hand = new Hand();
-          gameDealer.hand = new Hand();
           card1 = new Card(Suit.DIAMONDS, Rank.TEN);
           card2 = new Card(Suit.HEARTS, Rank.QUEEN);
           deck.addCard(card1);
