@@ -8,7 +8,7 @@ public class CardTest {
   @Before
   public void before(){
     // creating new instances of card and hand for testing
-    this.card = new Card(Suit.CLUBS, Rank.NINE, 2);
+    this.card = new Card(Suit.CLUBS, Rank.NINE);
   }
 
   // run test to check if the card has a Suit
